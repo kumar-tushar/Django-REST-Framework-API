@@ -5,5 +5,5 @@ from .views import home_page
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('home/', home_page),
-    path('api/v1/', include('api.urls')),
+    path('api/', include('api.urls')),
 ]
